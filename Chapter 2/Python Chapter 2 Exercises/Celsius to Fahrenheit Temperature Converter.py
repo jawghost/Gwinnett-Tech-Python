@@ -1,0 +1,5 @@
+celciusTemp = float( input( "Please enter the temperature in celcius " ))
+
+fahrenheitTemp = ((9 / 5) * celciusTemp ) + 32
+
+print( str("The Fahrenheit Temperature is " + str(fahrenheitTemp)))
